@@ -1,0 +1,38 @@
+*Java was developed by James Gosling at Sun Microsystems, Inc.*
+
+**History of Java**
+Java originated at Sun Microsystems,Inc. in 1991.
+Vinod Khosla was the co-founder of Sun Microsystems.
+
+Platform : It is an environment on which a software can run. Operating System is a software which work as a platform on which we can run our softwares.
+
+On Jan 27, 2010, Sun was acquired by Oracle Corporation for US$7.4 billion.
+
+**Java is Everywhere**
+
+JAVA resides in mobiles, client machines, server machines,embedded devices,smart phones,cloud,etc.
+It shares the same basic features of the language and libraries.
+Principles of Java :Write Once, Run Anywhere(WORA).
+
+What is Library?
+Java Library is a collection of predefined classes.
+You can use these classes either by inheriting them or by instantiating them.
+
+Java flavours:
+JAVA SE(CORE JAVA OR STANDARD EDITION)
+JAVA EE(ADVANCE JAVA OR ENTERPRISE EDITION)
+JAVA ME(MICRO EDITION FOR EDITION)
+
+Many more...
+
+Features of Java 
+Simple
+object oriented language
+distributed 
+interpreted
+robust
+secure
+portable
+multi-threaded
+garbage collector
+
