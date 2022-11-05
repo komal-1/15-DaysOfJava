@@ -17,4 +17,4 @@ public class HelloWorld     // classname : HelloWorld
 // void meaning function is not returning anything. then there is function main under it formal arguments (String[] args) is present.so here is making an array in which  a lots strings as of arguments can be received
 // System.out.println - Here System is a class name (starts with caps), whenever you find a dot(.) after a class name that means you're accessing a static member of that class.and after the classname you put a dot and then you are going to write any static member of that class static member can be variable , function. Here out is reference variable 
 // static reference variable it is going to represent an object means that object address is kept in this out named reference variable it is like a pointer and we call it reference variable and it represnts an object. 
-                       
+ // out will become object of print String class  we are calling memeber function println.And the string which will print on screen as it is.                 
