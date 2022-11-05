@@ -1,0 +1,25 @@
+How to compile ?
+one java program or .java file  or source file when you compile this file using compiler then one .class file created which is also called bytecode.
+operating system can't understand the bytecode, each .class file represents each java class.
+to run a .class file we use JVM (java virtual machine) under JVM there is one software named JIT( Just in Time compiler) JIT is like interpreter.
+difference between compiler and interpreter:
+
+compiler translates the whole program which machine can understand and store it into a file while interpreter translate each line of the program one by one and hand it over to OS.
+so here is the solution JIT (somewhat like compiler and interpreter) which will read first line from bytecode and translates it and handover it to OS.while OS will be executing that line it will again translates the next line and will give it to OS.But because OS is still executing the first line so JIT will store temporaraily the second line and when OS will ask for the next line which was alraedy translated and kept in JIT , it will make the performance faster.
+JIT is part of JVM.
+
+Because of JVM bytecode can run on any machine(OS).JVM comes different for different machine.That's why java is platform independent. and it is key feature of java.
+JDK : Java Developer Kit contains tools needed to develop the Java programs.
+these tools could be compiler(javac.exe),Application Launcher(java.exe),etc.
+
+Java Runtime Environment
+
+It contains JVM(Java Virtual Machine) and Java Package Classes(Java Library).
+
+Under JRE there is JVM
+JVM:
+
+JVM is platform dependent 
+The Java Virtual Machine provides a platform-independent way of executing code
+
+Java Virtual Machine interprets the byte code into the machine code depending upon the underlying operating system and hardware combination.
