@@ -1,0 +1,24 @@
+Comments :
+
+Block style comments begin with /* and terminate with */ that spans multiple lines.
+
+Line style comments begin with // and terminate at the end of the line.
+
+Documentation style comments begin with /** and terminate with */ that spans multiple lines. They are generally created using the automatic documentation generation tool, such as javadoc.
+
+Conversion:
+Every expression written in the Java programming language has a type that can be deduced from the structure of the expression and the types of the literals,variables, and methods mentioned in the expression.
+
+widening conversion:
+int y = 3;
+float x=y; // widening conversion , no error
+
+Narrowing conversion:
+float x = 3.4f;
+int y = x; // narrowing conversion, error
+
+int y =(int)x; //no error
+
+float k = 3.5; // narrowing conversion, error
+
+float k = 3.5f;// no error
